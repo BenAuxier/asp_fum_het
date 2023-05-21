@@ -1,7 +1,7 @@
 # Aspergillus fumigatus het mapping
 This repository contains codes and data to analyze the heterokaryon incompatibility genes in Aspergillus fumigatus, as part of the publication of Auxier et al. 2022
 
-The file fine_mapping.sh is used to extract the homologus regions from both parents, for use both in gene prediction as well as for synteny analysis
+The mapping contains the R script and gentoypic data used to map heterokaryon incompatiblity. The script het_mapping.R is used to genetically map the trait, and the fine_mapping.sh is a bash script used to extract the respective regions from the genomes of the two parents as well as the reference genome Af293.
 
 The related_genomes_downloader will download the representative genomes of A. fumigatus and three related species used for Figure 5
 
